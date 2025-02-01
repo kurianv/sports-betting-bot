@@ -3,7 +3,7 @@ import datetime as dt
 import tools
 
 API_KEY = '775066093bd2fa6d1186873299127d79'
-sport = 'basketball_nba'
+sport = 'americanfootball_nfl'
 market = 'us2'
 betType = 'h2h'
 oddsformat = 'american'
@@ -91,9 +91,6 @@ def feasibleBets():
   emailBody += "\nProgrammed by Kurian Vadakara. \nSharperBets"
   return emailBody
 
-
-print(feasibleBets())
-game_odds()
 
 
 
