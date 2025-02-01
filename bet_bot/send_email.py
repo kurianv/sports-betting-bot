@@ -5,9 +5,9 @@ stmp_server = smtplib.SMTP('smtp.gmail.com', 587)
 stmp_server.ehlo()
 
 stmp_server.starttls()
-sender = 'kurianvadakara4@gmail.com'
-receiver = ['kurianvadakara4@gmail.com', 'kvadakara33@gmail.com']
-password = 'dgxx sntt ypyd twwx'
+sender = 'sender@gmail.com'
+receiver = ['reciever1@gmail.com', 'reciever2@gmail.com']
+password = '#### #### #### ####' #hidden for security reasons
 subject = 'IMPORTANT: Bets to Make for NFL'
 text = bets.feasibleBets()
 for i in range(len(receiver)):
