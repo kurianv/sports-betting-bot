@@ -2,7 +2,7 @@ import requests
 import datetime as dt
 import tools
 
-API_KEY = '775066093bd2fa6d1186873299127d79'
+API_KEY = ''
 sport = 'americanfootball_nfl'
 market = 'us2'
 betType = 'h2h'
